@@ -112,7 +112,7 @@ vips_dither_class_init( VipsDitherClass *klass )
 
 	VIPS_ARG_IMAGE( klass, "in", 0, 
 		_( "Input" ), 
-		_( "Array of input images" ),
+		_( "Input image" ),
 		VIPS_ARGUMENT_REQUIRED_INPUT,
 		G_STRUCT_OFFSET( VipsDither, in ) );
 
